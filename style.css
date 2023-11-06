@@ -1,0 +1,63 @@
+*{
+    font-family: 'Nunito Sans', sans-serif; 
+}
+.contact-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6em;
+    max-width: 80%;
+    margin: auto;
+    border-bottom: 1px solid  rgb(198, 198, 198);;
+}
+.box1{
+    color: rgb(169, 168, 168);
+    display: flex;
+    flex: 1;
+    gap: 20px;
+    font-size: 18px;
+}
+.box2{
+    display: flex;
+    flex: 2;
+}
+.box2 i{
+    display: flex;
+    margin-top: 1.2em;
+    color: #F24545;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+a{
+    color: rgb(169, 168, 168);
+    padding-left: 1em;
+}
+.header-container{
+    display: flex;
+    max-width: 80%;
+    margin: auto;
+    color: #F24545;
+}
+.logo{
+    display: flex;
+    flex: 1;
+    color: #F24545;
+}
+.search-box button{
+
+    background-color: #f0eded;
+border: none;
+outline: none;
+
+
+
+}
+.search-box input{
+    background-color: #f0eded;
+border: none;
+outline: none;
+width: 270px;
+
+padding: 7px;
+
+}
